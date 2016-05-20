@@ -23,6 +23,8 @@ body {
   font-weight: 400;
   margin: 0 auto;
   padding: 2em;
+  color: #ddd;
+  background: url("space.jpg") top right no-repeat; background-attachment: fixed;
   /*text-align: left;*/
 }
 
