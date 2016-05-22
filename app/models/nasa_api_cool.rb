@@ -1,5 +1,3 @@
-require 'net/http'
-
 class NasaApiCool < ActiveRecord::Base
   def self.get_api_info
 
