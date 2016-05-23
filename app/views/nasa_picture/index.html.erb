@@ -1,21 +1,28 @@
 <div class="container">
   <div class="row">
     <div class="column column-12">
-      <h1><%= @nasa_info['title'] %> | <%= @nasa_info['date'] %></h1>
+      <h1><%= @nasa_info['title'] %></h1>
     </div>
   </div>
 
   <div class="row">
     <div class="column column-12">
-      <img src="<%= @nasa_info["url"] %>" alt="daily nasa photo" />
+      <%= @nasa_info['date'] %>
     </div>
   </div>
 
   <div class="row">
     <div class="column column-12">
-      <p><%= @nasa_info['explanation'] %></p>
+      <img src="<%= @nasa_info["url"] %>" alt="daily nasa photo"responsive/>
+      <article class="explanation"> <%= @nasa_info['explanation'] %></article>
     </div>
   </div>
+
+  <!-- <div class="row">
+    <div class="column column-12">
+      <article> <%= @nasa_info['explanation'] %></article>
+    </div>
+  </div> -->
 
   <% if @nasa_info['copyright']  %>
     <div class="row">

@@ -24,19 +24,26 @@ body {
   margin: 0 auto;
   padding: 2em;
   color: #ddd;
-  background: url("space.jpg") top right no-repeat; background-attachment: fixed;
-  /*text-align: left;*/
+  background-image: url(space.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
+
 }
 
+/*GRID SYSTEM SETUP*/
 .container {
-  /*width: auto;*/
   padding: 20px;
+  overflow: hidden;
 }
 
 .row, .column {
   box-sizing: border-box;
 }
 
+/*CLEARFIX BEGIN*/
 .row:before,
 .row:after {
   content: " ";
@@ -46,6 +53,7 @@ body {
 .row:after {
   clear: both;
 }
+/*CLEARFIX END*/
 
 .column {
   position: relative;
