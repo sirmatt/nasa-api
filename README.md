@@ -2,4 +2,4 @@
 
 A groovy Rails app that uses the NASA API to show the Planetary Picture of the Day. **Schweet**.
 
-LIVE: matts-nasa-api.herokuapp.com
+#### [Link to live app](https://matts-nasa-api.herokuapp.com)
